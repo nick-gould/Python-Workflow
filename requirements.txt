@@ -1,6 +1,6 @@
 numpy==1.24.2
 pandas==2.2.0
-matplotlib==3.10.0
+matplotlib
 seaborn==0.13.1
 papermill==2.3.4
 ipython==7.34.0
