@@ -18,6 +18,7 @@ def ThisTime():
 myNotebook = 'Input-MonteCarloPi.ipynb'
 # myOutput = myNotebook.split('.')[0] + '_OUTPUT.' + myNotebook.split('.')[1]
 myOutput = 'output/' + 'Output-MonteCarloPi' + ThisTime() + '.ipynb'
+print(myOutput)
 
 
 bashCommand = f'papermill {myNotebook} {myOutput}'
