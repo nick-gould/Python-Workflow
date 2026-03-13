@@ -11,7 +11,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v4
+    - name: checkout repo
+      uses: actions/checkout@v4
     - name: Set up Python 3.9.12
       uses: actions/setup-python@v3
       with:
@@ -24,3 +25,10 @@ jobs:
     - name: run code
       run: |
           python papermillConvert.py 
+    - name: push repo
+      run: |
+         git add .
+         git commit -m "run code from github actions"
+         git push
+       
+       
