@@ -4,4 +4,4 @@ matplotlib==3.5.2
 seaborn==0.13.1
 papermill==2.3.4
 ipython==7.34.0
-ipykernel='6.15.1'
+ipykernel=='6.15.1'
