@@ -3,7 +3,7 @@ name: Run Papermill Conversion
 on:
    schedule:
      - cron: "0/5 * * * *"
-   [Push]
+   [push]
      
 jobs:
   build:
